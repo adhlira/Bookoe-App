@@ -16,21 +16,21 @@ const Navbar = () => {
           </div>
           <nav className="flex flex-row gap-10">
             <ul className="flex flex-row gap-10 items-center text-xl">
-              <li>
+              <li className="hover:underline">
                 <Link to={"/"}>All</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link to={"/latest"}>Latest</Link>
               </li>
-              <li>
+              <li className="hover:underline">
                 <Link to={"/top_picks"}>Top Picks</Link>
               </li>
             </ul>
             <div>
-              <input type="text" placeholder="Serch by author" className="border w-[402px] h-[50px]" />
+              <input type="text" placeholder=" Serch by author" className="border w-[402px] h-[50px]" />
             </div>
             <div>
-              <button className="border rounded-lg outline outline-1 text-xl text-button px-3 h-14">Edit List</button>
+              <button className="border rounded-lg outline outline-1 text-xl text-button p-2">Edit List</button>
             </div>
           </nav>
         </header>
